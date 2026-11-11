@@ -8,6 +8,16 @@ software), but releases are still tagged so changes are easy to point to.
 
 ## [Unreleased]
 
+### Added
+
+- 18 new resources, bringing the list to 30: Kaplan SAT, Mometrix SAT, Test
+  Innovators, and Varsity Tutors SAT (mock tests); Albert SAT, College Board
+  Student Question Bank, High School Test Prep SAT, Test Ninjas, and Union Test
+  Prep SAT (practice questions); College Board, Khan Academy, MagooshSAT, Scalar
+  Learning, and UWorld College Prep YouTube channels (video); Acely (courses);
+  and College Board SAT Scores, Desmos Testing, and Kaplan Digital SAT Guide
+  (study guides).
+
 ## [1.0.0] - 2026-11-11
 
 ### Added

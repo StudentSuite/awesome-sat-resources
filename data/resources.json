@@ -44,6 +44,39 @@
     "subsection": null
   },
   {
+    "name": "Kaplan SAT",
+    "url": "https://www.kaptest.com/sat/free/sat-practice",
+    "description": "Take a full-length Digital SAT practice test with a score report",
+    "pricing": "free",
+    "tags": [
+      "free"
+    ],
+    "section": "Mock Tests & Full-Length Practice",
+    "subsection": null
+  },
+  {
+    "name": "Mometrix SAT",
+    "url": "https://www.mometrix.com/academy/sat-practice-test/",
+    "description": "Take a Digital SAT practice test with Reading, Writing, and Math questions",
+    "pricing": "freemium",
+    "tags": [
+      "freemium"
+    ],
+    "section": "Mock Tests & Full-Length Practice",
+    "subsection": null
+  },
+  {
+    "name": "Test Innovators",
+    "url": "https://testinnovators.com/sat/digital-sat-practice/",
+    "description": "Take adaptive Digital SAT practice tests with detailed score analytics",
+    "pricing": "freemium",
+    "tags": [
+      "freemium"
+    ],
+    "section": "Mock Tests & Full-Length Practice",
+    "subsection": null
+  },
+  {
     "name": "The Princeton Review SAT",
     "url": "https://www.princetonreview.com/college/free-digitalsat-practice-test",
     "description": "Take a full-length Digital SAT practice test with a score report",
@@ -55,12 +88,78 @@
     "subsection": null
   },
   {
+    "name": "Varsity Tutors SAT",
+    "url": "https://www.varsitytutors.com/practice/subjects/sat/practice-tests",
+    "description": "Take timed Digital SAT practice tests with immediate scoring",
+    "pricing": "freemium",
+    "tags": [
+      "freemium"
+    ],
+    "section": "Mock Tests & Full-Length Practice",
+    "subsection": null
+  },
+  {
+    "name": "Albert SAT",
+    "url": "https://www.albert.io/sat",
+    "description": "Digital SAT question bank with practice exams",
+    "pricing": "paid",
+    "tags": [
+      "paid"
+    ],
+    "section": "Practice Questions & Quizzes",
+    "subsection": null
+  },
+  {
+    "name": "College Board Student Question Bank",
+    "url": "https://satsuite.collegeboard.org/practice/student-question-bank",
+    "description": "Filter thousands of official questions by section, skill, and difficulty",
+    "pricing": "free",
+    "tags": [
+      "free"
+    ],
+    "section": "Practice Questions & Quizzes",
+    "subsection": null
+  },
+  {
+    "name": "High School Test Prep SAT",
+    "url": "https://highschooltestprep.com/sat/",
+    "description": "Practice SAT reading, writing, and math questions with explanations",
+    "pricing": "free",
+    "tags": [
+      "free"
+    ],
+    "section": "Practice Questions & Quizzes",
+    "subsection": null
+  },
+  {
     "name": "Khan Academy Official Digital SAT",
     "url": "https://www.khanacademy.org/digital-sat",
     "description": "Free official Digital SAT practice, made with College Board",
     "pricing": "free",
     "tags": [
       "free"
+    ],
+    "section": "Practice Questions & Quizzes",
+    "subsection": null
+  },
+  {
+    "name": "Test Ninjas",
+    "url": "https://test-ninjas.com/free-sat-practice",
+    "description": "Get daily SAT questions, a practice test, and study guides",
+    "pricing": "freemium",
+    "tags": [
+      "freemium"
+    ],
+    "section": "Practice Questions & Quizzes",
+    "subsection": null
+  },
+  {
+    "name": "Union Test Prep SAT",
+    "url": "https://uniontestprep.com/sat-exam",
+    "description": "Practice SAT questions with lessons, flashcards, and study guides",
+    "pricing": "freemium",
+    "tags": [
+      "freemium"
     ],
     "section": "Practice Questions & Quizzes",
     "subsection": null
@@ -77,9 +176,64 @@
     "subsection": null
   },
   {
+    "name": "College Board",
+    "url": "https://www.youtube.com/@CollegeBoard",
+    "description": "Watch official College Board videos on the SAT and college planning",
+    "pricing": "free",
+    "tags": [
+      "free"
+    ],
+    "section": "Video Lessons & YouTube",
+    "subsection": null
+  },
+  {
+    "name": "Khan Academy",
+    "url": "https://www.youtube.com/@khanacademy",
+    "description": "Watch video lessons from the nonprofit behind the official Digital SAT course",
+    "pricing": "free",
+    "tags": [
+      "free"
+    ],
+    "section": "Video Lessons & YouTube",
+    "subsection": null
+  },
+  {
+    "name": "MagooshSAT",
+    "url": "https://www.youtube.com/@MagooshSAT",
+    "description": "Watch SAT strategy and lesson videos from Magoosh",
+    "pricing": "free",
+    "tags": [
+      "free"
+    ],
+    "section": "Video Lessons & YouTube",
+    "subsection": null
+  },
+  {
+    "name": "Scalar Learning",
+    "url": "https://www.youtube.com/@ScalarLearning",
+    "description": "Follow step-by-step walkthroughs of SAT math questions",
+    "pricing": "free",
+    "tags": [
+      "free"
+    ],
+    "section": "Video Lessons & YouTube",
+    "subsection": null
+  },
+  {
     "name": "SupertutorTV",
     "url": "https://www.youtube.com/@SupertutorTV",
     "description": "In-depth SAT and ACT prep from a perfect-scoring tutor",
+    "pricing": "free",
+    "tags": [
+      "free"
+    ],
+    "section": "Video Lessons & YouTube",
+    "subsection": null
+  },
+  {
+    "name": "UWorld College Prep",
+    "url": "https://www.youtube.com/@UWorldCollegePrep",
+    "description": "Watch prep videos for the SAT, ACT, and AP from UWorld",
     "pricing": "free",
     "tags": [
       "free"
@@ -99,6 +253,17 @@
     "subsection": null
   },
   {
+    "name": "Acely",
+    "url": "https://acely.com/",
+    "description": "Follow a personalized SAT and ACT study plan",
+    "pricing": "freemium",
+    "tags": [
+      "freemium"
+    ],
+    "section": "Courses & Prep Platforms",
+    "subsection": null
+  },
+  {
     "name": "Magoosh SAT",
     "url": "https://sat.magoosh.com",
     "description": "Video lessons and practice questions for the Digital SAT",
@@ -107,6 +272,39 @@
       "freemium"
     ],
     "section": "Courses & Prep Platforms",
+    "subsection": null
+  },
+  {
+    "name": "College Board SAT Scores",
+    "url": "https://satsuite.collegeboard.org/scores",
+    "description": "Learn how SAT scores are reported and what they mean",
+    "pricing": "free",
+    "tags": [
+      "free"
+    ],
+    "section": "Study Guides & Strategy",
+    "subsection": null
+  },
+  {
+    "name": "Desmos Testing",
+    "url": "https://www.desmos.com/testing",
+    "description": "Practice with the calculators built into the Digital SAT",
+    "pricing": "free",
+    "tags": [
+      "free"
+    ],
+    "section": "Study Guides & Strategy",
+    "subsection": null
+  },
+  {
+    "name": "Kaplan Digital SAT Guide",
+    "url": "https://www.kaptest.com/study/sat/digital-sat/",
+    "description": "Learn the Digital SAT format, sections, and strategies",
+    "pricing": "free",
+    "tags": [
+      "free"
+    ],
+    "section": "Study Guides & Strategy",
     "subsection": null
   },
   {

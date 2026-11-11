@@ -11,7 +11,7 @@ A curated list of the best practice tests, question banks, video lessons, course
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md)
-![Resources](https://img.shields.io/badge/resources-12-blue)
+![Resources](https://img.shields.io/badge/resources-30-blue)
 ![Sections](https://img.shields.io/badge/sections-7-purple)
 [![Changelog](https://img.shields.io/badge/changelog-v1.0.0-lightgrey.svg)](CHANGELOG.md)
 
@@ -34,11 +34,11 @@ This list goes deep on one exam. [Awesome Study Resources](https://github.com/St
 | Icon | Section | Resources |
 | :-: | --- | :-: |
 | <span role="img" aria-label="Official Resources icon">🏛️</span> | [Official Resources](#official-resources) | 1 |
-| <span role="img" aria-label="Mock Tests &amp; Full-Length Practice icon">⏱️</span> | [Mock Tests & Full-Length Practice](#mock-tests--full-length-practice) | 4 |
-| <span role="img" aria-label="Practice Questions &amp; Quizzes icon">✏️</span> | [Practice Questions & Quizzes](#practice-questions--quizzes) | 2 |
-| <span role="img" aria-label="Video Lessons &amp; YouTube icon">🎬</span> | [Video Lessons & YouTube](#video-lessons--youtube) | 1 |
-| <span role="img" aria-label="Courses &amp; Prep Platforms icon">🎓</span> | [Courses & Prep Platforms](#courses--prep-platforms) | 2 |
-| <span role="img" aria-label="Study Guides &amp; Strategy icon">📚</span> | [Study Guides & Strategy](#study-guides--strategy) | 1 |
+| <span role="img" aria-label="Mock Tests &amp; Full-Length Practice icon">⏱️</span> | [Mock Tests & Full-Length Practice](#mock-tests--full-length-practice) | 8 |
+| <span role="img" aria-label="Practice Questions &amp; Quizzes icon">✏️</span> | [Practice Questions & Quizzes](#practice-questions--quizzes) | 7 |
+| <span role="img" aria-label="Video Lessons &amp; YouTube icon">🎬</span> | [Video Lessons & YouTube](#video-lessons--youtube) | 6 |
+| <span role="img" aria-label="Courses &amp; Prep Platforms icon">🎓</span> | [Courses & Prep Platforms](#courses--prep-platforms) | 3 |
+| <span role="img" aria-label="Study Guides &amp; Strategy icon">📚</span> | [Study Guides & Strategy](#study-guides--strategy) | 4 |
 | <span role="img" aria-label="Communities icon">👥</span> | [Communities](#communities) | 1 |
 
 [More from StudentSuite](#more-from-studentsuite) &middot; [Sister lists](#sister-lists) &middot; [A Note on Links](#a-note-on-links) &middot; [Quality Standards](#quality-standards) &middot; [Contributing](#contributing) &middot; [Contributors](#contributors) &middot; [License](#license)
@@ -70,7 +70,11 @@ Timed, full-length practice tests for building stamina and getting a realistic s
 - **[1600.now](https://1600.now/)** - Practice SAT questions and timed tests with answer explanations ![free](https://img.shields.io/badge/free-2489CA?style=flat-square).
 - **[College Board Bluebook](https://bluebook.collegeboard.org)** - The official app that delivers full-length adaptive practice tests ![free](https://img.shields.io/badge/free-2489CA?style=flat-square).
 - **[College Board SAT Practice](https://satsuite.collegeboard.org/practice)** - Take official SAT practice tests and review sample questions ![free](https://img.shields.io/badge/free-2489CA?style=flat-square).
+- **[Kaplan SAT](https://www.kaptest.com/sat/free/sat-practice)** - Take a full-length Digital SAT practice test with a score report ![free](https://img.shields.io/badge/free-2489CA?style=flat-square).
+- **[Mometrix SAT](https://www.mometrix.com/academy/sat-practice-test/)** - Take a Digital SAT practice test with Reading, Writing, and Math questions ![freemium](https://img.shields.io/badge/freemium-F5A623?style=flat-square).
+- **[Test Innovators](https://testinnovators.com/sat/digital-sat-practice/)** - Take adaptive Digital SAT practice tests with detailed score analytics ![freemium](https://img.shields.io/badge/freemium-F5A623?style=flat-square).
 - **[The Princeton Review SAT](https://www.princetonreview.com/college/free-digitalsat-practice-test)** - Take a full-length Digital SAT practice test with a score report ![freemium](https://img.shields.io/badge/freemium-F5A623?style=flat-square).
+- **[Varsity Tutors SAT](https://www.varsitytutors.com/practice/subjects/sat/practice-tests)** - Take timed Digital SAT practice tests with immediate scoring ![freemium](https://img.shields.io/badge/freemium-F5A623?style=flat-square).
 
 </details>
 
@@ -83,7 +87,12 @@ Question banks and short quizzes for drilling one skill at a time.
 <details open>
 <summary>Practice Questions &amp; Quizzes</summary>
 
+- **[Albert SAT](https://www.albert.io/sat)** - Digital SAT question bank with practice exams ![paid](https://img.shields.io/badge/paid-D33833?style=flat-square).
+- **[College Board Student Question Bank](https://satsuite.collegeboard.org/practice/student-question-bank)** - Filter thousands of official questions by section, skill, and difficulty ![free](https://img.shields.io/badge/free-2489CA?style=flat-square).
+- **[High School Test Prep SAT](https://highschooltestprep.com/sat/)** - Practice SAT reading, writing, and math questions with explanations ![free](https://img.shields.io/badge/free-2489CA?style=flat-square).
 - **[Khan Academy Official Digital SAT](https://www.khanacademy.org/digital-sat)** - Free official Digital SAT practice, made with College Board ![free](https://img.shields.io/badge/free-2489CA?style=flat-square).
+- **[Test Ninjas](https://test-ninjas.com/free-sat-practice)** - Get daily SAT questions, a practice test, and study guides ![freemium](https://img.shields.io/badge/freemium-F5A623?style=flat-square).
+- **[Union Test Prep SAT](https://uniontestprep.com/sat-exam)** - Practice SAT questions with lessons, flashcards, and study guides ![freemium](https://img.shields.io/badge/freemium-F5A623?style=flat-square).
 - **[UWorld SAT](https://collegeprep.uworld.com/sat/)** - Large question bank with detailed explanations ![paid](https://img.shields.io/badge/paid-D33833?style=flat-square).
 
 </details>
@@ -97,7 +106,12 @@ Free video explanations and walkthroughs, handy for learning a concept or review
 <details open>
 <summary>Video Lessons &amp; YouTube</summary>
 
+- **[College Board](https://www.youtube.com/@CollegeBoard)** - Watch official College Board videos on the SAT and college planning ![free](https://img.shields.io/badge/free-2489CA?style=flat-square).
+- **[Khan Academy](https://www.youtube.com/@khanacademy)** - Watch video lessons from the nonprofit behind the official Digital SAT course ![free](https://img.shields.io/badge/free-2489CA?style=flat-square).
+- **[MagooshSAT](https://www.youtube.com/@MagooshSAT)** - Watch SAT strategy and lesson videos from Magoosh ![free](https://img.shields.io/badge/free-2489CA?style=flat-square).
+- **[Scalar Learning](https://www.youtube.com/@ScalarLearning)** - Follow step-by-step walkthroughs of SAT math questions ![free](https://img.shields.io/badge/free-2489CA?style=flat-square).
 - **[SupertutorTV](https://www.youtube.com/@SupertutorTV)** - In-depth SAT and ACT prep from a perfect-scoring tutor ![free](https://img.shields.io/badge/free-2489CA?style=flat-square).
+- **[UWorld College Prep](https://www.youtube.com/@UWorldCollegePrep)** - Watch prep videos for the SAT, ACT, and AP from UWorld ![free](https://img.shields.io/badge/free-2489CA?style=flat-square).
 
 </details>
 
@@ -111,6 +125,7 @@ Structured, self-paced programs that combine lessons, practice, and progress tra
 <summary>Courses &amp; Prep Platforms</summary>
 
 - **[1600.io](https://1600.io)** - Deep video courses and problem sets for serious SAT scores ![paid](https://img.shields.io/badge/paid-D33833?style=flat-square).
+- **[Acely](https://acely.com/)** - Follow a personalized SAT and ACT study plan ![freemium](https://img.shields.io/badge/freemium-F5A623?style=flat-square).
 - **[Magoosh SAT](https://sat.magoosh.com)** - Video lessons and practice questions for the Digital SAT ![freemium](https://img.shields.io/badge/freemium-F5A623?style=flat-square).
 
 </details>
@@ -119,11 +134,14 @@ Structured, self-paced programs that combine lessons, practice, and progress tra
 
 ## Study Guides & Strategy
 
-Written guides on the exam format, scoring, and how to raise your score section by section.
+Written guides on the exam format, scoring, and the built-in calculator, plus strategy for raising your score section by section.
 
 <details open>
 <summary>Study Guides &amp; Strategy</summary>
 
+- **[College Board SAT Scores](https://satsuite.collegeboard.org/scores)** - Learn how SAT scores are reported and what they mean ![free](https://img.shields.io/badge/free-2489CA?style=flat-square).
+- **[Desmos Testing](https://www.desmos.com/testing)** - Practice with the calculators built into the Digital SAT ![free](https://img.shields.io/badge/free-2489CA?style=flat-square).
+- **[Kaplan Digital SAT Guide](https://www.kaptest.com/study/sat/digital-sat/)** - Learn the Digital SAT format, sections, and strategies ![free](https://img.shields.io/badge/free-2489CA?style=flat-square).
 - **[PrepScholar](https://www.prepscholar.com/sat-test-prep/)** - Free study guides, score strategies, and section-by-section practice for the SAT ![free](https://img.shields.io/badge/free-2489CA?style=flat-square).
 
 </details>
