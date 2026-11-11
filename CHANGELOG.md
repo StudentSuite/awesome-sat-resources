@@ -17,6 +17,8 @@ software), but releases are still tagged so changes are easy to point to.
   Learning, and UWorld College Prep YouTube channels (video); Acely (courses);
   and College Board SAT Scores, Desmos Testing, and Kaplan Digital SAT Guide
   (study guides).
+- 2 more community entries: College Confidential SAT Preparation and
+  r/digitalSATs.
 
 ## [1.0.0] - 2026-11-11
 

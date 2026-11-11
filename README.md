@@ -11,7 +11,7 @@ A curated list of the best practice tests, question banks, video lessons, course
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md)
-![Resources](https://img.shields.io/badge/resources-30-blue)
+![Resources](https://img.shields.io/badge/resources-32-blue)
 ![Sections](https://img.shields.io/badge/sections-7-purple)
 [![Changelog](https://img.shields.io/badge/changelog-v1.0.0-lightgrey.svg)](CHANGELOG.md)
 
@@ -39,7 +39,7 @@ This list goes deep on one exam. [Awesome Study Resources](https://github.com/St
 | <span role="img" aria-label="Video Lessons &amp; YouTube icon">🎬</span> | [Video Lessons & YouTube](#video-lessons--youtube) | 6 |
 | <span role="img" aria-label="Courses &amp; Prep Platforms icon">🎓</span> | [Courses & Prep Platforms](#courses--prep-platforms) | 3 |
 | <span role="img" aria-label="Study Guides &amp; Strategy icon">📚</span> | [Study Guides & Strategy](#study-guides--strategy) | 4 |
-| <span role="img" aria-label="Communities icon">👥</span> | [Communities](#communities) | 1 |
+| <span role="img" aria-label="Communities icon">👥</span> | [Communities](#communities) | 3 |
 
 [More from StudentSuite](#more-from-studentsuite) &middot; [Sister lists](#sister-lists) &middot; [A Note on Links](#a-note-on-links) &middot; [Quality Standards](#quality-standards) &middot; [Contributing](#contributing) &middot; [Contributors](#contributors) &middot; [License](#license)
 
@@ -155,6 +155,8 @@ Places to ask questions, compare scores, and swap strategies with other test-tak
 <details open>
 <summary>Communities</summary>
 
+- **[College Confidential SAT Preparation](https://talk.collegeconfidential.com/c/sat-and-act-tests-test-preparation/sat-preparation/64)** - Ask SAT prep questions and read advice threads on a college-admissions forum ![free](https://img.shields.io/badge/free-2489CA?style=flat-square).
+- **[r/digitalSATs](https://www.reddit.com/r/digitalSATs/)** - Swap strategies and practice resources for the digital SAT ![free](https://img.shields.io/badge/free-2489CA?style=flat-square).
 - **[r/SAT](https://www.reddit.com/r/SAT/)** - Strategy, practice, and score discussion for the SAT ![free](https://img.shields.io/badge/free-2489CA?style=flat-square).
 
 </details>

@@ -319,6 +319,28 @@
     "subsection": null
   },
   {
+    "name": "College Confidential SAT Preparation",
+    "url": "https://talk.collegeconfidential.com/c/sat-and-act-tests-test-preparation/sat-preparation/64",
+    "description": "Ask SAT prep questions and read advice threads on a college-admissions forum",
+    "pricing": "free",
+    "tags": [
+      "free"
+    ],
+    "section": "Communities",
+    "subsection": null
+  },
+  {
+    "name": "r/digitalSATs",
+    "url": "https://www.reddit.com/r/digitalSATs/",
+    "description": "Swap strategies and practice resources for the digital SAT",
+    "pricing": "free",
+    "tags": [
+      "free"
+    ],
+    "section": "Communities",
+    "subsection": null
+  },
+  {
     "name": "r/SAT",
     "url": "https://www.reddit.com/r/SAT/",
     "description": "Strategy, practice, and score discussion for the SAT",
