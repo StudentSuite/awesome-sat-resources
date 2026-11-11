@@ -1,0 +1,38 @@
+name: Lint
+
+on:
+  # No path filter on pull_request: check-list-format is a required status check, so it has
+  # to report on every PR, including ones that only touch data/last-verified.json or lychee.toml.
+  pull_request:
+  push:
+    branches:
+      - main
+    paths:
+      - README.md
+      - CONTRIBUTING.md
+      - scripts/check-list-format.mjs
+      - scripts/audit-duplicate-urls.mjs
+      - scripts/update-counts.mjs
+      - scripts/export-json.mjs
+      - data/resources.json
+
+jobs:
+  check-list-format:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+      - uses: actions/setup-node@v7
+        with:
+          node-version: 24
+      - run: node scripts/check-list-format.mjs
+      # Fails if the resource-count badge, sections badge, or Table of Contents
+      # counts have drifted; run `node scripts/update-counts.mjs` to regenerate.
+      - run: node scripts/update-counts.mjs --check
+      # Informational only: reports cross-section URL reuse, never fails the job.
+      - run: node scripts/audit-duplicate-urls.mjs
+      # Fails if data/resources.json has drifted from README.md; run
+      # `node scripts/export-json.mjs` to regenerate.
+      - run: node scripts/export-json.mjs --check
+      # Fails on a key in data/last-verified.json that matches no resource URL, a malformed
+      # date, or a future date. Undated entries are only listed as a warning.
+      - run: node scripts/check-last-verified.mjs

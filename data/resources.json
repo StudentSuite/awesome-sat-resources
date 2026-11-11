@@ -1,0 +1,134 @@
+[
+  {
+    "name": "College Board SAT Suite",
+    "url": "https://satsuite.collegeboard.org/sat",
+    "description": "The official overview, dates, registration, and score info for the SAT",
+    "pricing": "free",
+    "tags": [
+      "free"
+    ],
+    "section": "Official Resources",
+    "subsection": null
+  },
+  {
+    "name": "1600.now",
+    "url": "https://1600.now/",
+    "description": "Practice SAT questions and timed tests with answer explanations",
+    "pricing": "free",
+    "tags": [
+      "free"
+    ],
+    "section": "Mock Tests & Full-Length Practice",
+    "subsection": null
+  },
+  {
+    "name": "College Board Bluebook",
+    "url": "https://bluebook.collegeboard.org",
+    "description": "The official app that delivers full-length adaptive practice tests",
+    "pricing": "free",
+    "tags": [
+      "free"
+    ],
+    "section": "Mock Tests & Full-Length Practice",
+    "subsection": null
+  },
+  {
+    "name": "College Board SAT Practice",
+    "url": "https://satsuite.collegeboard.org/practice",
+    "description": "Take official SAT practice tests and review sample questions",
+    "pricing": "free",
+    "tags": [
+      "free"
+    ],
+    "section": "Mock Tests & Full-Length Practice",
+    "subsection": null
+  },
+  {
+    "name": "The Princeton Review SAT",
+    "url": "https://www.princetonreview.com/college/free-digitalsat-practice-test",
+    "description": "Take a full-length Digital SAT practice test with a score report",
+    "pricing": "freemium",
+    "tags": [
+      "freemium"
+    ],
+    "section": "Mock Tests & Full-Length Practice",
+    "subsection": null
+  },
+  {
+    "name": "Khan Academy Official Digital SAT",
+    "url": "https://www.khanacademy.org/digital-sat",
+    "description": "Free official Digital SAT practice, made with College Board",
+    "pricing": "free",
+    "tags": [
+      "free"
+    ],
+    "section": "Practice Questions & Quizzes",
+    "subsection": null
+  },
+  {
+    "name": "UWorld SAT",
+    "url": "https://collegeprep.uworld.com/sat/",
+    "description": "Large question bank with detailed explanations",
+    "pricing": "paid",
+    "tags": [
+      "paid"
+    ],
+    "section": "Practice Questions & Quizzes",
+    "subsection": null
+  },
+  {
+    "name": "SupertutorTV",
+    "url": "https://www.youtube.com/@SupertutorTV",
+    "description": "In-depth SAT and ACT prep from a perfect-scoring tutor",
+    "pricing": "free",
+    "tags": [
+      "free"
+    ],
+    "section": "Video Lessons & YouTube",
+    "subsection": null
+  },
+  {
+    "name": "1600.io",
+    "url": "https://1600.io",
+    "description": "Deep video courses and problem sets for serious SAT scores",
+    "pricing": "paid",
+    "tags": [
+      "paid"
+    ],
+    "section": "Courses & Prep Platforms",
+    "subsection": null
+  },
+  {
+    "name": "Magoosh SAT",
+    "url": "https://sat.magoosh.com",
+    "description": "Video lessons and practice questions for the Digital SAT",
+    "pricing": "freemium",
+    "tags": [
+      "freemium"
+    ],
+    "section": "Courses & Prep Platforms",
+    "subsection": null
+  },
+  {
+    "name": "PrepScholar",
+    "url": "https://www.prepscholar.com/sat-test-prep/",
+    "description": "Free study guides, score strategies, and section-by-section practice for the SAT",
+    "pricing": "free",
+    "tags": [
+      "free"
+    ],
+    "section": "Study Guides & Strategy",
+    "subsection": null
+  },
+  {
+    "name": "r/SAT",
+    "url": "https://www.reddit.com/r/SAT/",
+    "description": "Strategy, practice, and score discussion for the SAT",
+    "pricing": "free",
+    "tags": [
+      "free"
+    ],
+    "section": "Communities",
+    "subsection": null
+  }
+]

@@ -1,0 +1,41 @@
+name: Dead Link Check
+
+on:
+  schedule:
+    # Every Monday at 06:00 UTC
+    - cron: "0 6 * * 1"
+  workflow_dispatch:
+
+permissions:
+  issues: write
+
+jobs:
+  lychee:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+
+      - name: Link Checker
+        id: lychee
+        uses: lycheeverse/lychee-action@v2
+        env:
+          # Authenticated GitHub requests avoid the intermittent 504s/429s that
+          # unauthenticated runner IPs get on the many github.com links in the README.
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          args: --config lychee.toml --no-progress README.md CONTRIBUTING.md CODE_OF_CONDUCT.md CHANGELOG.md
+          format: markdown
+          output: lychee-report.md
+          fail: false
+
+      - name: Open or update issue with broken links
+        if: steps.lychee.outputs.exit_code != 0
+        uses: peter-evans/create-issue-from-file@v6
+        with:
+          title: Dead link check failed
+          content-filepath: lychee-report.md
+          labels: bug
+
+      - name: Fail the job if links are broken
+        if: steps.lychee.outputs.exit_code != 0
+        run: exit 1

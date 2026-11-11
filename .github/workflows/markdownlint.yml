@@ -1,0 +1,24 @@
+name: Markdown Lint
+
+on:
+  # No path filter on pull_request: markdownlint is a required status check, so it has to
+  # report on every PR, not only ones that touch a Markdown file.
+  pull_request:
+  push:
+    branches:
+      - main
+    paths:
+      - "**/*.md"
+
+jobs:
+  markdownlint:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+      - uses: DavidAnson/markdownlint-cli2-action@v25
+        with:
+          globs: |
+            README.md
+            CONTRIBUTING.md
+            CODE_OF_CONDUCT.md
+            CHANGELOG.md

@@ -1,0 +1,18 @@
+#!/bin/sh
+# Opt-in local pre-commit check. Enable once with:
+#   git config core.hooksPath .githooks
+#
+# Mirrors the CI lint job (.github/workflows/lint.yml) so format, count,
+# and JSON export drift surface before CI fails on your PR.
+# Only runs when README.md or CONTRIBUTING.md is actually staged, so it
+# stays out of the way for unrelated commits.
+
+staged=$(git diff --cached --name-only)
+
+echo "$staged" | grep -qE '^(README\.md|CONTRIBUTING\.md)$' || exit 0
+
+echo "pre-commit: README.md/CONTRIBUTING.md staged, running format, count, and JSON export checks..."
+
+node scripts/check-list-format.mjs || exit 1
+node scripts/update-counts.mjs --check || exit 1
+node scripts/export-json.mjs --check || exit 1
