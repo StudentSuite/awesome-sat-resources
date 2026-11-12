@@ -182,7 +182,7 @@ Thanks to everyone who has added a resource, fixed a link, or improved the forma
 
 [![Contributors](https://contrib.rocks/image?repo=StudentSuite/awesome-sat-resources)](https://github.com/StudentSuite/awesome-sat-resources/graphs/contributors)
 
-Recognized contributions, including non-code ones (bug reports, docs, ideas), via [all-contributors](https://allcontributors.org):
+Maintained by Anay Dhawan and Yash Kewlani.
 
 <!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
 <!-- prettier-ignore-start -->
