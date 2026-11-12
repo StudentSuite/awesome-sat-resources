@@ -10,6 +10,8 @@ software), but releases are still tagged so changes are easy to point to.
 
 ### Added
 
+- A new **Formula Sheets** section: Albert.io's Digital SAT Math Cheat Sheet.
+- 1 more vocab entry: PrepScholar SAT Vocabulary Words.
 - 18 new resources, bringing the list to 30: Kaplan SAT, Mometrix SAT, Test
   Innovators, and Varsity Tutors SAT (mock tests); Albert SAT, College Board
   Student Question Bank, High School Test Prep SAT, Test Ninjas, and Union Test

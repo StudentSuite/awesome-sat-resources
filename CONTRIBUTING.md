@@ -50,6 +50,7 @@ Keep the description to one line, roughly 10 words or fewer. Lead with a verb wh
 Add your single bullet to the closest matching section:
 
 - Practice Tests
+- Formula Sheets
 - Video Lessons & YouTube
 - Communities
 - Vocab Bank

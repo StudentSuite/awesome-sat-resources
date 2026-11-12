@@ -11,8 +11,8 @@ A curated list of free practice tests, video lessons, vocab, and communities for
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md)
-![Resources](https://img.shields.io/badge/resources-24-blue)
-![Sections](https://img.shields.io/badge/sections-4-purple)
+![Resources](https://img.shields.io/badge/resources-26-blue)
+![Sections](https://img.shields.io/badge/sections-5-purple)
 [![Changelog](https://img.shields.io/badge/changelog-v1.0.0-lightgrey.svg)](CHANGELOG.md)
 
 </div>
@@ -34,9 +34,10 @@ This list goes deep on one exam. [Awesome Study Resources](https://github.com/St
 | Icon | Section | Resources |
 | :-: | --- | :-: |
 | <span role="img" aria-label="Practice Tests icon">⏱️</span> | [Practice Tests](#practice-tests) | 7 |
+| <span role="img" aria-label="Formula Sheets icon">📐</span> | [Formula Sheets](#formula-sheets) | 1 |
 | <span role="img" aria-label="Video Lessons &amp; YouTube icon">🎬</span> | [Video Lessons & YouTube](#video-lessons--youtube) | 10 |
 | <span role="img" aria-label="Communities icon">👥</span> | [Communities](#communities) | 5 |
-| <span role="img" aria-label="Vocab Bank icon">🔤</span> | [Vocab Bank](#vocab-bank) | 2 |
+| <span role="img" aria-label="Vocab Bank icon">🔤</span> | [Vocab Bank](#vocab-bank) | 3 |
 
 [More from StudentSuite](#more-from-studentsuite) &middot; [Sister lists](#sister-lists) &middot; [A Note on Links](#a-note-on-links) &middot; [Quality Standards](#quality-standards) &middot; [Contributing](#contributing) &middot; [Contributors](#contributors) &middot; [License](#license)
 
@@ -58,6 +59,19 @@ Full-length practice tests and question banks for building stamina and drilling 
 - **[High School Test Prep SAT](https://highschooltestprep.com/sat/)** - Practice SAT reading, writing, and math questions with explanations.
 - **[Kaplan SAT](https://www.kaptest.com/sat/free/sat-practice)** - Take a full-length Digital SAT practice test with a score report.
 - **[Khan Academy Official Digital SAT](https://www.khanacademy.org/digital-sat)** - Free official Digital SAT practice, made with College Board.
+
+</details>
+
+---
+
+## Formula Sheets
+
+Reference sheets covering the formulas and facts the Digital SAT expects you to know, free only.
+
+<details open>
+<summary>Formula Sheets</summary>
+
+- **[Albert.io Digital SAT Math Cheat Sheet](https://www.albert.io/blog/wp-content/uploads/2026/03/The-Ultimate-Digital-SAT-Math-Cheat-Sheet.pdf)** - Two-page PDF covering every Digital SAT math topic and formula.
 
 </details>
 
@@ -128,6 +142,7 @@ Word lists and flashcards for the reading and writing sections, free only.
 <summary>Vocab Bank</summary>
 
 - **[Magoosh SAT Vocabulary Flashcards](https://magoosh.com/hs/sat/sat-vocabulary-flashcards/)** - Study a free deck of high-frequency SAT vocab flashcards.
+- **[PrepScholar SAT Vocabulary Words](https://blog.prepscholar.com/sat-vocabulary-words)** - Study 384 common digital SAT words with example sentences.
 - **[Vocabulary.com SAT Word Lists](https://www.vocabulary.com/lists/)** - Learn SAT-level words with adaptive games and lists.
 
 </details>

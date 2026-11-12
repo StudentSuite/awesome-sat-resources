@@ -63,6 +63,15 @@
     "subsection": null
   },
   {
+    "name": "Albert.io Digital SAT Math Cheat Sheet",
+    "url": "https://www.albert.io/blog/wp-content/uploads/2026/03/The-Ultimate-Digital-SAT-Math-Cheat-Sheet.pdf",
+    "description": "Two-page PDF covering every Digital SAT math topic and formula",
+    "pricing": null,
+    "tags": [],
+    "section": "Formula Sheets",
+    "subsection": null
+  },
+  {
     "name": "\"Though\" and \"However\" on the SAT? You're Missing This",
     "url": "https://youtu.be/s27u0NH2cWM",
     "description": "Strategy for transition-word questions built around \"though\" and \"however\"",
@@ -201,6 +210,15 @@
     "name": "Magoosh SAT Vocabulary Flashcards",
     "url": "https://magoosh.com/hs/sat/sat-vocabulary-flashcards/",
     "description": "Study a free deck of high-frequency SAT vocab flashcards",
+    "pricing": null,
+    "tags": [],
+    "section": "Vocab Bank",
+    "subsection": null
+  },
+  {
+    "name": "PrepScholar SAT Vocabulary Words",
+    "url": "https://blog.prepscholar.com/sat-vocabulary-words",
+    "description": "Study 384 common digital SAT words with example sentences",
     "pricing": null,
     "tags": [],
     "section": "Vocab Bank",
