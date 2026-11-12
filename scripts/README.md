@@ -8,24 +8,21 @@ README.
 
 ## badges.mjs
 
-Not a script, a shared module: the tag-badge vocabulary (`FOSS`, `free`,
+Not a script, a shared module: the old tag-badge vocabulary (`FOSS`, `free`,
 `freemium`, `paid`), their shields.io colors, and the `parseTaggedDescription`
 parser that pulls `![tag](url)` badges out of an entry's description text.
-`check-list-format.mjs`, `export-json.mjs`, and `pricing-review.mjs` all
-import from here so they agree on the same tag names and parsing instead of
-each reimplementing a slightly different regex. See CONTRIBUTING.md's "Tag
-badges" section for the entry-authoring side of this.
+This list dropped per-entry pricing badges (it's free resources only now, see
+the note near the top of README.md), but `export-json.mjs` and
+`pricing-review.mjs` still import this module to stay tag-agnostic: an entry
+with no badge parses cleanly to `pricing: null`, `tags: []`.
 
 ## check-list-format.mjs
 
 Validates README.md against the rules in CONTRIBUTING.md:
 
-- every entry matches `- **[Name](url)** - Description ![tag](badge-url).`
+- every entry matches `- **[Name](url)** - Description.`
 - entries within each list are sorted alphabetically (case-insensitive), no
   duplicate URLs within the same list
-- every entry carries exactly one pricing badge (`free`, `freemium`, or
-  `paid`), no unrecognized tag names, and every FOSS Picks entry carries the
-  `FOSS` badge too
 - every section heading has a matching Table of Contents entry, and vice versa
 - no marketing adjectives in descriptions (see `BANNED_ADJECTIVES` in the script)
 - no tracking or referral parameters in entry URLs (`utm_*`, `fbclid`, `gclid`, `ref`,
@@ -88,11 +85,11 @@ runs, never fails the job.
 
 Parses README.md into `data/resources.json`: one record per resource entry
 (`name`, `url`, `description`, `pricing`, `tags`, `section`, `subsection`),
-skipping front-matter/footer sections like More from StudentSuite. `tags` is
-every badge on the entry in order (e.g. `["FOSS", "free"]`); `pricing` is the
-one pricing tag among them, kept as its own field for consumers that only
-care about price. Gives tools other than a human reading the page something
-to consume.
+skipping front-matter/footer sections like More from StudentSuite. `pricing`
+and `tags` are leftovers from when entries carried pricing badges; every
+entry is free now and carries no badge, so they're always `null`/`[]`, kept
+for shape stability rather than dropped outright. Gives tools other than a
+human reading the page something to consume.
 
 ```sh
 node scripts/export-json.mjs           # writes data/resources.json
@@ -107,12 +104,11 @@ scripts/export-json.mjs, or data/resources.json (via `--check`).
 
 ## pricing-review.mjs
 
-Builds a rotating spot-check batch for the monthly badge re-review (pricing
-tag, plus the FOSS badge where present). Badge claims can't be verified
-automatically the way dead links can (a tool that quietly starts charging
-still returns HTTP 200), so this surfaces a fresh slice of entries for a
-maintainer to eyeball each month, cycling through the full list over time
-instead of never revisiting anything.
+Builds a rotating spot-check batch for the monthly free-resource re-review.
+A tool that quietly starts charging still returns HTTP 200, so the dead-link
+check won't catch it; this surfaces a fresh slice of entries for a maintainer
+to eyeball each month, cycling through the full list over time instead of
+never revisiting anything.
 
 ```sh
 node scripts/pricing-review.mjs            # print this month's batch

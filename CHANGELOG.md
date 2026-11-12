@@ -25,6 +25,13 @@ software), but releases are still tagged so changes are easy to point to.
 - 10 hand-picked videos replacing the generic channel listings in Video
   Lessons & YouTube, now split into English, Math, and General subsections.
 
+### Changed
+
+- Dropped per-entry pricing badges entirely. Every entry is free by policy
+  now, so there's nothing left to tag; a single note near the top of
+  README.md says so instead. `scripts/check-list-format.mjs` no longer
+  enforces a pricing badge on each entry.
+
 ### Removed
 
 - The **Courses & Prep Platforms** and **Study Guides & Strategy** sections

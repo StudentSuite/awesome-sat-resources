@@ -14,7 +14,7 @@
 
 import { readFileSync, realpathSync } from 'node:fs';
 import { fileURLToPath } from 'node:url';
-import { parseTaggedDescription, PRICING_TAGS, ALL_TAGS } from './badges.mjs';
+import { parseTaggedDescription } from './badges.mjs';
 
 // Case-insensitive, whole-word/phrase. Extend this list as new marketing fluff
 // slips into a description; keep it to words CONTRIBUTING.md would actually reject.
@@ -162,27 +162,6 @@ export function checkListFormat(readmeText, contributingText) {
       const banned = findBannedAdjective(item[3]);
       if (banned) {
         errors.push(`README.md:${i + 1}  Description uses a marketing adjective ("${banned}"): ${line}`);
-      }
-
-      // --- Rule: every entry carries exactly one pricing badge, plus only known tags ---
-      const { tags } = parseTaggedDescription(item[3]);
-      const unknownTags = tags.filter((t) => !ALL_TAGS.includes(t));
-      if (unknownTags.length) {
-        errors.push(
-          `README.md:${i + 1}  "${item[1]}" has unrecognized tag(s) ${unknownTags.join(', ')} (allowed: ${ALL_TAGS.join(', ')}).`
-        );
-      }
-      const pricingCount = tags.filter((t) => PRICING_TAGS.includes(t)).length;
-      if (pricingCount === 0) {
-        errors.push(`README.md:${i + 1}  "${item[1]}" is missing a pricing badge (free, freemium, or paid).`);
-      } else if (pricingCount > 1) {
-        errors.push(`README.md:${i + 1}  "${item[1]}" has more than one pricing badge: ${tags.join(', ')}.`);
-      }
-      if (currentHeading === 'FOSS Picks' && !tags.includes('FOSS')) {
-        errors.push(`README.md:${i + 1}  "${item[1]}" is in FOSS Picks but is missing the FOSS badge.`);
-      }
-      if (currentHeading === 'FOSS Picks' && (tags.includes('freemium') || tags.includes('paid'))) {
-        errors.push(`README.md:${i + 1}  "${item[1]}" is in FOSS Picks but is not fully free; move it to another section.`);
       }
     }
   }

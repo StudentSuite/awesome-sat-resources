@@ -13,7 +13,6 @@ import {
 
 const FREE = '![free](https://img.shields.io/badge/free-2489CA?style=flat-square)';
 const FREEMIUM = '![freemium](https://img.shields.io/badge/freemium-F5A623?style=flat-square)';
-const FOSS = '![FOSS](https://img.shields.io/badge/FOSS-3DA639?style=flat-square)';
 
 // A minimal, fully-valid README + CONTRIBUTING pair. Each negative test starts
 // from these and introduces exactly one defect via string replacement.
@@ -165,79 +164,13 @@ test('trailing " (...)" notes in CONTRIBUTING bullets are ignored when matching'
   assert.deepEqual(errorsFor(VALID_README, contributing), []);
 });
 
-// --- Badge tag rules ---
-
-test('an entry with no pricing badge is flagged', () => {
+test('an entry with no badge at all is fine (the list is free-only; no per-entry tags)', () => {
   const readme = VALID_README.replace(
     `- **[Apple](https://apple.example)** - A fruit tool ${FREE}.`,
     `- **[Apple](https://apple.example)** - A fruit tool.`
   );
-  const errors = errorsFor(readme);
-  assert.ok(errors.some((e) => /"Apple".*missing a pricing badge/.test(e)));
+  assert.deepEqual(errorsFor(readme), []);
 });
-
-test('an entry with two pricing badges is flagged', () => {
-  const readme = VALID_README.replace(
-    `- **[Apple](https://apple.example)** - A fruit tool ${FREE}.`,
-    `- **[Apple](https://apple.example)** - A fruit tool ${FREE} ${FREEMIUM}.`
-  );
-  const errors = errorsFor(readme);
-  assert.ok(errors.some((e) => /"Apple".*more than one pricing badge/.test(e)));
-});
-
-test('an unrecognized tag is flagged', () => {
-  const readme = VALID_README.replace(
-    `- **[Apple](https://apple.example)** - A fruit tool ${FREE}.`,
-    `- **[Apple](https://apple.example)** - A fruit tool ![shiny](https://img.shields.io/badge/shiny-000?style=flat-square) ${FREE}.`
-  );
-  const errors = errorsFor(readme);
-  assert.ok(errors.some((e) => /"Apple".*unrecognized tag.*shiny/.test(e)));
-});
-
-test('a FOSS Picks entry with no FOSS badge is flagged', () => {
-  const readme = VALID_README.replace('## Alpha', '## FOSS Picks').replace(
-    `- [Alpha](#alpha)`,
-    `- [FOSS Picks](#foss-picks)`
-  );
-  const contributing = VALID_CONTRIBUTING.replace('- Alpha', '- FOSS Picks');
-  const errors = errorsFor(readme, contributing);
-  assert.ok(errors.some((e) => /"Apple" is in FOSS Picks but is missing the FOSS badge/.test(e)));
-});
-
-test('a FOSS Picks entry with the FOSS badge passes', () => {
-  const readme = VALID_README.replace('## Alpha', '## FOSS Picks')
-    .replace(`- [Alpha](#alpha)`, `- [FOSS Picks](#foss-picks)`)
-    .replace(
-      `- **[Apple](https://apple.example)** - A fruit tool ${FREE}.`,
-      `- **[Apple](https://apple.example)** - A fruit tool ${FOSS} ${FREE}.`
-    )
-    .replace(
-      `- **[Banana](https://banana.example)** - Another fruit tool ${FREE}.`,
-      `- **[Banana](https://banana.example)** - Another fruit tool ${FOSS} ${FREE}.`
-    );
-  const contributing = VALID_CONTRIBUTING.replace('- Alpha', '- FOSS Picks');
-  assert.deepEqual(errorsFor(readme, contributing), []);
-});
-
-for (const pricing of ['freemium', 'paid']) {
-  test(`a FOSS Picks entry with ${pricing} pricing is rejected`, () => {
-    const badge = pricing === 'freemium' ? FREEMIUM : '![paid](https://img.shields.io/badge/paid-D33833?style=flat-square)';
-    const readme = VALID_README.replaceAll('Alpha', 'FOSS Picks')
-      .replace('#alpha', '#foss-picks')
-      .replace(`A fruit tool ${FREE}`, `A fruit tool ${FOSS} ${badge}`)
-      .replace(`Another fruit tool ${FREE}`, `Another fruit tool ${FOSS} ${FREE}`);
-    const contributing = VALID_CONTRIBUTING.replace('- Alpha', '- FOSS Picks');
-    const errors = errorsFor(readme, contributing);
-    assert.equal(errors.length, 1);
-    assert.match(errors[0], /"Apple" is in FOSS Picks but is not fully free/);
-  });
-
-  test(`open-source ${pricing} entries are allowed outside FOSS Picks`, () => {
-    const badge = pricing === 'freemium' ? FREEMIUM : '![paid](https://img.shields.io/badge/paid-D33833?style=flat-square)';
-    const readme = VALID_README.replace(`A fruit tool ${FREE}`, `A fruit tool ${FOSS} ${badge}`);
-    assert.deepEqual(errorsFor(readme), []);
-  });
-}
 
 // --- Exported helpers ---
 

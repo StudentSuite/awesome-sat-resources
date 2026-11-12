@@ -3,10 +3,8 @@
     "name": "1600.now",
     "url": "https://1600.now/",
     "description": "Practice SAT questions and timed tests with answer explanations",
-    "pricing": "free",
-    "tags": [
-      "free"
-    ],
+    "pricing": null,
+    "tags": [],
     "section": "Practice Tests",
     "subsection": null
   },
@@ -14,10 +12,8 @@
     "name": "College Board Bluebook",
     "url": "https://bluebook.collegeboard.org",
     "description": "The official app that delivers full-length adaptive practice tests",
-    "pricing": "free",
-    "tags": [
-      "free"
-    ],
+    "pricing": null,
+    "tags": [],
     "section": "Practice Tests",
     "subsection": null
   },
@@ -25,10 +21,8 @@
     "name": "College Board SAT Practice",
     "url": "https://satsuite.collegeboard.org/practice",
     "description": "Take official SAT practice tests and review sample questions",
-    "pricing": "free",
-    "tags": [
-      "free"
-    ],
+    "pricing": null,
+    "tags": [],
     "section": "Practice Tests",
     "subsection": null
   },
@@ -36,10 +30,8 @@
     "name": "College Board Student Question Bank",
     "url": "https://satsuite.collegeboard.org/practice/student-question-bank",
     "description": "Filter thousands of official questions by section, skill, and difficulty",
-    "pricing": "free",
-    "tags": [
-      "free"
-    ],
+    "pricing": null,
+    "tags": [],
     "section": "Practice Tests",
     "subsection": null
   },
@@ -47,10 +39,8 @@
     "name": "High School Test Prep SAT",
     "url": "https://highschooltestprep.com/sat/",
     "description": "Practice SAT reading, writing, and math questions with explanations",
-    "pricing": "free",
-    "tags": [
-      "free"
-    ],
+    "pricing": null,
+    "tags": [],
     "section": "Practice Tests",
     "subsection": null
   },
@@ -58,10 +48,8 @@
     "name": "Kaplan SAT",
     "url": "https://www.kaptest.com/sat/free/sat-practice",
     "description": "Take a full-length Digital SAT practice test with a score report",
-    "pricing": "free",
-    "tags": [
-      "free"
-    ],
+    "pricing": null,
+    "tags": [],
     "section": "Practice Tests",
     "subsection": null
   },
@@ -69,10 +57,8 @@
     "name": "Khan Academy Official Digital SAT",
     "url": "https://www.khanacademy.org/digital-sat",
     "description": "Free official Digital SAT practice, made with College Board",
-    "pricing": "free",
-    "tags": [
-      "free"
-    ],
+    "pricing": null,
+    "tags": [],
     "section": "Practice Tests",
     "subsection": null
   },
@@ -80,10 +66,8 @@
     "name": "\"Though\" and \"However\" on the SAT? You're Missing This",
     "url": "https://youtu.be/s27u0NH2cWM",
     "description": "Strategy for transition-word questions built around \"though\" and \"however\"",
-    "pricing": "free",
-    "tags": [
-      "free"
-    ],
+    "pricing": null,
+    "tags": [],
     "section": "Video Lessons & YouTube",
     "subsection": "English"
   },
@@ -91,10 +75,8 @@
     "name": "Acing SAT English so you can just copy me",
     "url": "https://youtu.be/ZOz81HrniRA",
     "description": "A perfect scorer solves a full Bluebook English section live",
-    "pricing": "free",
-    "tags": [
-      "free"
-    ],
+    "pricing": null,
+    "tags": [],
     "section": "Video Lessons & YouTube",
     "subsection": "English"
   },
@@ -102,10 +84,8 @@
     "name": "All of SAT Grammar in 37 Minutes (2026)",
     "url": "https://youtu.be/iJVJnvZO3PM",
     "description": "Every Digital SAT grammar rule in one sitting",
-    "pricing": "free",
-    "tags": [
-      "free"
-    ],
+    "pricing": null,
+    "tags": [],
     "section": "Video Lessons & YouTube",
     "subsection": "English"
   },
@@ -113,10 +93,8 @@
     "name": "All of SAT Passage Questions in 21 Minutes",
     "url": "https://youtu.be/0-cDbAjF5o8",
     "description": "Every SAT reading passage question type, covered fast",
-    "pricing": "free",
-    "tags": [
-      "free"
-    ],
+    "pricing": null,
+    "tags": [],
     "section": "Video Lessons & YouTube",
     "subsection": "English"
   },
@@ -124,10 +102,8 @@
     "name": "Digital SAT: Cross-Text Connections (FULL GUIDE)",
     "url": "https://youtu.be/yfn_VRLG5rg",
     "description": "Full strategy walkthrough for cross-text connection questions",
-    "pricing": "free",
-    "tags": [
-      "free"
-    ],
+    "pricing": null,
+    "tags": [],
     "section": "Video Lessons & YouTube",
     "subsection": "English"
   },
@@ -135,10 +111,8 @@
     "name": "English SAT Hacks | Structure & Purpose",
     "url": "https://youtu.be/fAHc6HnySgE",
     "description": "Hacks for structure-and-purpose questions",
-    "pricing": "free",
-    "tags": [
-      "free"
-    ],
+    "pricing": null,
+    "tags": [],
     "section": "Video Lessons & YouTube",
     "subsection": "English"
   },
@@ -146,10 +120,8 @@
     "name": "The \"Ingredients\" Trick for SAT Graph Questions",
     "url": "https://youtu.be/bAlMc1XiCpA",
     "description": "A trick for reading and answering SAT graph questions",
-    "pricing": "free",
-    "tags": [
-      "free"
-    ],
+    "pricing": null,
+    "tags": [],
     "section": "Video Lessons & YouTube",
     "subsection": "English"
   },
@@ -157,10 +129,8 @@
     "name": "8 Advanced Desmos Hacks You NEED for the SAT",
     "url": "https://youtu.be/eIkiuHw9nrI",
     "description": "Desmos calculator tricks for the Digital SAT math section",
-    "pricing": "free",
-    "tags": [
-      "free"
-    ],
+    "pricing": null,
+    "tags": [],
     "section": "Video Lessons & YouTube",
     "subsection": "Math"
   },
@@ -168,10 +138,8 @@
     "name": "EVERY SAT DESMOS HACK in Under 6 Minutes (2026)",
     "url": "https://youtu.be/ZcsaatYhHTM",
     "description": "Every Desmos calculator hack for the Digital SAT, fast",
-    "pricing": "free",
-    "tags": [
-      "free"
-    ],
+    "pricing": null,
+    "tags": [],
     "section": "Video Lessons & YouTube",
     "subsection": "Math"
   },
@@ -179,10 +147,8 @@
     "name": "EVERYTHING You Need to Know about the SAT (2026)",
     "url": "https://youtu.be/9IC3WMCAAwc",
     "description": "A full intro to the Digital SAT: format, sections, and scoring",
-    "pricing": "free",
-    "tags": [
-      "free"
-    ],
+    "pricing": null,
+    "tags": [],
     "section": "Video Lessons & YouTube",
     "subsection": "General"
   },
@@ -190,10 +156,8 @@
     "name": "College Confidential SAT Preparation",
     "url": "https://talk.collegeconfidential.com/c/sat-and-act-tests-test-preparation/sat-preparation/64",
     "description": "Ask SAT prep questions and read advice threads on a college-admissions forum",
-    "pricing": "free",
-    "tags": [
-      "free"
-    ],
+    "pricing": null,
+    "tags": [],
     "section": "Communities",
     "subsection": null
   },
@@ -201,10 +165,8 @@
     "name": "Quora SAT",
     "url": "https://www.quora.com/topic/SAT-Exam",
     "description": "Read and ask questions in Quora's SAT topic",
-    "pricing": "free",
-    "tags": [
-      "free"
-    ],
+    "pricing": null,
+    "tags": [],
     "section": "Communities",
     "subsection": null
   },
@@ -212,10 +174,8 @@
     "name": "r/ApplyingToCollege",
     "url": "https://www.reddit.com/r/ApplyingToCollege/",
     "description": "Discuss SAT scores and strategy inside the broader college-admissions community",
-    "pricing": "free",
-    "tags": [
-      "free"
-    ],
+    "pricing": null,
+    "tags": [],
     "section": "Communities",
     "subsection": null
   },
@@ -223,10 +183,8 @@
     "name": "r/digitalSATs",
     "url": "https://www.reddit.com/r/digitalSATs/",
     "description": "Swap strategies and practice resources for the digital SAT",
-    "pricing": "free",
-    "tags": [
-      "free"
-    ],
+    "pricing": null,
+    "tags": [],
     "section": "Communities",
     "subsection": null
   },
@@ -234,10 +192,8 @@
     "name": "r/SAT",
     "url": "https://www.reddit.com/r/SAT/",
     "description": "Strategy, practice, and score discussion for the SAT",
-    "pricing": "free",
-    "tags": [
-      "free"
-    ],
+    "pricing": null,
+    "tags": [],
     "section": "Communities",
     "subsection": null
   },
@@ -245,10 +201,8 @@
     "name": "Magoosh SAT Vocabulary Flashcards",
     "url": "https://magoosh.com/hs/sat/sat-vocabulary-flashcards/",
     "description": "Study a free deck of high-frequency SAT vocab flashcards",
-    "pricing": "free",
-    "tags": [
-      "free"
-    ],
+    "pricing": null,
+    "tags": [],
     "section": "Vocab Bank",
     "subsection": null
   },
@@ -256,10 +210,8 @@
     "name": "Vocabulary.com SAT Word Lists",
     "url": "https://www.vocabulary.com/lists/",
     "description": "Learn SAT-level words with adaptive games and lists",
-    "pricing": "free",
-    "tags": [
-      "free"
-    ],
+    "pricing": null,
+    "tags": [],
     "section": "Vocab Bank",
     "subsection": null
   }

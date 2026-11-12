@@ -23,7 +23,7 @@ Check the entry meets the [Quality Standards](README.md#quality-standards):
 
 - [ ] Genuinely useful for SAT prep, and current for the digital SAT.
 - [ ] Real and maintained, not abandoned or a dead link.
-- [ ] Free, freemium, or clearly worth the price, with exactly one pricing badge on the entry (plus FOSS where it applies).
+- [ ] Free. This list only carries free resources, no exceptions.
 - [ ] A reputable tool, channel, or course, not spam or an affiliate funnel.
 - [ ] Short, plain-language description.
 
@@ -32,31 +32,16 @@ Check the entry meets the [Quality Standards](README.md#quality-standards):
 ## Entry format
 
 ```md
-- **[Name](https://homepage)** - Short description of what it does ![free](https://img.shields.io/badge/free-2489CA?style=flat-square).
+- **[Name](https://homepage)** - Short description of what it does.
 ```
 
 For YouTube channels, link to the channel page:
 
 ```md
-- **[SupertutorTV](https://www.youtube.com/@SupertutorTV)** - In-depth SAT and ACT prep from a perfect-scoring tutor ![free](https://img.shields.io/badge/free-2489CA?style=flat-square).
+- **[SupertutorTV](https://www.youtube.com/@SupertutorTV)** - In-depth SAT and ACT prep from a perfect-scoring tutor.
 ```
 
-Keep the description to one line, roughly 10 words or fewer. Lead with a verb where it reads naturally, skip adjectives like "amazing" or "powerful," and put the tag badge(s) right before the closing period, not inside it. No em dashes.
-
-### Tag badges
-
-Every entry carries exactly one pricing badge, always, no exceptions for "obviously free" sites, plus the FOSS badge on top of it when the resource is also free and open source (rare for SAT prep, but some open question banks and study repositories qualify):
-
-| Badge | Meaning | Markdown |
-| --- | --- | --- |
-| ![free](https://img.shields.io/badge/free-2489CA?style=flat-square) | pricing | `![free](https://img.shields.io/badge/free-2489CA?style=flat-square)` |
-| ![freemium](https://img.shields.io/badge/freemium-F5A623?style=flat-square) | pricing | `![freemium](https://img.shields.io/badge/freemium-F5A623?style=flat-square)` |
-| ![paid](https://img.shields.io/badge/paid-D33833?style=flat-square) | pricing | `![paid](https://img.shields.io/badge/paid-D33833?style=flat-square)` |
-| ![FOSS](https://img.shields.io/badge/FOSS-3DA639?style=flat-square) | additive, on top of a pricing badge | `![FOSS](https://img.shields.io/badge/FOSS-3DA639?style=flat-square)` |
-
-The FOSS badge needs a licence you can point to: the source (or, for content repositories, the content) must be under an OSI-approved or Creative Commons licence that allows commercial use and derivatives. A repository with no licence file, non-commercial terms (CC BY-NC and similar) or personal-use-only terms does not qualify, so it gets its pricing badge alone. Check with `gh api repos/<owner>/<repo> --jq .license.spdx_id` and read the licence file when GitHub reports `NOASSERTION`.
-
-Order: FOSS first, then the pricing badge, e.g. `![FOSS](...) ![free](...)`. `scripts/check-list-format.mjs` fails the build on a missing pricing badge, more than one pricing badge, or an unrecognized tag name, so get this right locally before opening a PR (`node scripts/check-list-format.mjs`).
+Keep the description to one line, roughly 10 words or fewer. Lead with a verb where it reads naturally, skip adjectives like "amazing" or "powerful." No pricing badge, no tags: this list is free-only, so there's nothing to tag. No em dashes.
 
 ---
 
@@ -146,7 +131,7 @@ node scripts/update-counts.mjs
 
 CI runs `node scripts/update-counts.mjs --check` and fails the build if any of those numbers have drifted, so don't edit them by hand.
 
-`data/resources.json` is a generated machine-readable export of the same entries (name, url, description, pricing, section, subsection), rebuilt from README.md the same way:
+`data/resources.json` is a generated machine-readable export of the same entries (name, url, description, section, subsection; the leftover `pricing`/`tags` fields are always `null`/`[]` now that the list is free-only, kept for shape stability), rebuilt from README.md the same way:
 
 ```sh
 node scripts/export-json.mjs
@@ -174,7 +159,7 @@ node --test scripts/*.test.mjs
 
 A `.github/workflows/welcome.yml` workflow (via `actions/first-interaction`) leaves a short comment on a contributor's first issue and first PR, pointing them to this file and the Quality Standards. It's a one-time greeting, not a gate; it never blocks anything.
 
-A monthly workflow (`.github/workflows/pricing-review.yml`) opens an issue with a rotating sample of entries (built by `scripts/pricing-review.mjs`) for a maintainer to spot-check that pricing tags are still accurate. A tool that quietly starts charging still returns HTTP 200, so the dead-link check won't catch it; this is the manual backstop. Preview the current sample locally with `node scripts/pricing-review.mjs`.
+A monthly workflow (`.github/workflows/pricing-review.yml`) opens an issue with a rotating sample of entries (built by `scripts/pricing-review.mjs`) for a maintainer to spot-check that each one is still actually free. A tool that quietly starts charging still returns HTTP 200, so the dead-link check won't catch it; this is the manual backstop. Preview the current sample locally with `node scripts/pricing-review.mjs`.
 
 A weekly workflow (`.github/workflows/weekly-digest.yml`) opens or updates a single pinned issue ("Weekly digest: new issues and PRs", built by `scripts/weekly-digest.mjs`) summarizing everything opened in the last 7 days, so a maintainer has one place to check instead of the Issues and PRs tabs separately.
 
@@ -182,7 +167,7 @@ A daily workflow (`.github/workflows/stale.yml`, via `actions/stale`) marks an i
 
 A labeling workflow (`.github/workflows/labeler.yml`, via `actions/labeler`) adds labels such as `content`, `documentation` and `infra` to every PR based on which files it changes, so you don't need to set them yourself. The path-to-label rules live in `.github/labeler.yml`.
 
-A quarterly workflow (`.github/workflows/verification-check.yml`) opens an issue (built by `scripts/check-verification-age.mjs`) listing every entry not verified in the last six months, so that work surfaces on its own instead of depending on someone remembering. It skips creating a new issue if one from this quarter is already open. Verifying an entry means opening the link and confirming three things: the link still works, the resource is still maintained rather than abandoned, and the pricing tag is still accurate. Record a verification by adding the URL and today's date to `data/last-verified.json` (a flat `{ "url": "YYYY-MM-DD" }` map, kept separate from the generated `data/resources.json` so recording one never requires touching README.md), in the same PR that fixes anything you found wrong. Dates aren't rendered in README.md; the only value here is the maintenance prompt. Preview the current report locally with `node scripts/check-verification-age.mjs`.
+A quarterly workflow (`.github/workflows/verification-check.yml`) opens an issue (built by `scripts/check-verification-age.mjs`) listing every entry not verified in the last six months, so that work surfaces on its own instead of depending on someone remembering. It skips creating a new issue if one from this quarter is already open. Verifying an entry means opening the link and confirming three things: the link still works, the resource is still maintained rather than abandoned, and it's still free. Record a verification by adding the URL and today's date to `data/last-verified.json` (a flat `{ "url": "YYYY-MM-DD" }` map, kept separate from the generated `data/resources.json` so recording one never requires touching README.md), in the same PR that fixes anything you found wrong. Dates aren't rendered in README.md; the only value here is the maintenance prompt. Preview the current report locally with `node scripts/check-verification-age.mjs`.
 
 A PR-gated workflow (`.github/workflows/awesome-lint.yml`) runs [awesome-lint](https://github.com/sindresorhus/awesome-lint) on every PR, required before merge. It disables four rules that are genuinely incompatible with choices this list makes deliberately (bold entry names, intentional repeat navigation links, keeping a License section, and the generated Table of Contents' unpadded pipes); see the comments in `scripts/run-awesome-lint.mjs` for why. Run it yourself with:
 
