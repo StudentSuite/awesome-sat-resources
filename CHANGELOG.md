@@ -19,6 +19,21 @@ software), but releases are still tagged so changes are easy to point to.
   (study guides).
 - 2 more community entries: College Confidential SAT Preparation and
   r/digitalSATs.
+- A new **Vocab Bank** section: Magoosh SAT Vocabulary Flashcards, Membean,
+  Quizlet SAT Vocabulary, and Vocabulary.com SAT Word Lists.
+- 2 more community entries: Quora SAT and r/ApplyingToCollege.
+- 10 hand-picked videos replacing the generic channel listings in Video
+  Lessons & YouTube, now split into English, Math, and General subsections.
+
+### Removed
+
+- The **Courses & Prep Platforms** and **Study Guides & Strategy** sections
+  (1600.io, Acely, Magoosh SAT, College Board SAT Scores, Desmos Testing,
+  Kaplan Digital SAT Guide, PrepScholar) to keep the list focused on practice,
+  video, vocab, and community resources.
+- The generic College Board, Khan Academy, MagooshSAT, Scalar Learning,
+  SupertutorTV, and UWorld College Prep channel listings, replaced by
+  hand-picked videos.
 
 ## [1.0.0] - 2026-11-11
 

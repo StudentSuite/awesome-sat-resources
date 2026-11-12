@@ -7,12 +7,12 @@
 
 # Awesome SAT Resources
 
-A curated list of the best practice tests, question banks, video lessons, courses, and communities for the SAT.
+A curated list of the best practice tests, question banks, video lessons, vocab, and communities for the SAT.
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md)
-![Resources](https://img.shields.io/badge/resources-32-blue)
-![Sections](https://img.shields.io/badge/sections-7-purple)
+![Resources](https://img.shields.io/badge/resources-35-blue)
+![Sections](https://img.shields.io/badge/sections-6-purple)
 [![Changelog](https://img.shields.io/badge/changelog-v1.0.0-lightgrey.svg)](CHANGELOG.md)
 
 </div>
@@ -36,10 +36,9 @@ This list goes deep on one exam. [Awesome Study Resources](https://github.com/St
 | <span role="img" aria-label="Official Resources icon">🏛️</span> | [Official Resources](#official-resources) | 1 |
 | <span role="img" aria-label="Mock Tests &amp; Full-Length Practice icon">⏱️</span> | [Mock Tests & Full-Length Practice](#mock-tests--full-length-practice) | 8 |
 | <span role="img" aria-label="Practice Questions &amp; Quizzes icon">✏️</span> | [Practice Questions & Quizzes](#practice-questions--quizzes) | 7 |
-| <span role="img" aria-label="Video Lessons &amp; YouTube icon">🎬</span> | [Video Lessons & YouTube](#video-lessons--youtube) | 6 |
-| <span role="img" aria-label="Courses &amp; Prep Platforms icon">🎓</span> | [Courses & Prep Platforms](#courses--prep-platforms) | 3 |
-| <span role="img" aria-label="Study Guides &amp; Strategy icon">📚</span> | [Study Guides & Strategy](#study-guides--strategy) | 4 |
-| <span role="img" aria-label="Communities icon">👥</span> | [Communities](#communities) | 3 |
+| <span role="img" aria-label="Video Lessons &amp; YouTube icon">🎬</span> | [Video Lessons & YouTube](#video-lessons--youtube) | 10 |
+| <span role="img" aria-label="Communities icon">👥</span> | [Communities](#communities) | 5 |
+| <span role="img" aria-label="Vocab Bank icon">🔤</span> | [Vocab Bank](#vocab-bank) | 4 |
 
 [More from StudentSuite](#more-from-studentsuite) &middot; [Sister lists](#sister-lists) &middot; [A Note on Links](#a-note-on-links) &middot; [Quality Standards](#quality-standards) &middot; [Contributing](#contributing) &middot; [Contributors](#contributors) &middot; [License](#license)
 
@@ -101,48 +100,39 @@ Question banks and short quizzes for drilling one skill at a time.
 
 ## Video Lessons & YouTube
 
-Free video explanations and walkthroughs, handy for learning a concept or reviewing a missed question.
+Hand-picked video explanations, grouped by subject.
+
+### English
 
 <details open>
-<summary>Video Lessons &amp; YouTube</summary>
+<summary>English</summary>
 
-- **[College Board](https://www.youtube.com/@CollegeBoard)** - Watch official College Board videos on the SAT and college planning ![free](https://img.shields.io/badge/free-2489CA?style=flat-square).
-- **[Khan Academy](https://www.youtube.com/@khanacademy)** - Watch video lessons from the nonprofit behind the official Digital SAT course ![free](https://img.shields.io/badge/free-2489CA?style=flat-square).
-- **[MagooshSAT](https://www.youtube.com/@MagooshSAT)** - Watch SAT strategy and lesson videos from Magoosh ![free](https://img.shields.io/badge/free-2489CA?style=flat-square).
-- **[Scalar Learning](https://www.youtube.com/@ScalarLearning)** - Follow step-by-step walkthroughs of SAT math questions ![free](https://img.shields.io/badge/free-2489CA?style=flat-square).
-- **[SupertutorTV](https://www.youtube.com/@SupertutorTV)** - In-depth SAT and ACT prep from a perfect-scoring tutor ![free](https://img.shields.io/badge/free-2489CA?style=flat-square).
-- **[UWorld College Prep](https://www.youtube.com/@UWorldCollegePrep)** - Watch prep videos for the SAT, ACT, and AP from UWorld ![free](https://img.shields.io/badge/free-2489CA?style=flat-square).
+- **[Acing SAT English so you can just copy me](https://youtu.be/ZOz81HrniRA)** - A perfect scorer solves a full Bluebook English section live, narrating the approach ![free](https://img.shields.io/badge/free-2489CA?style=flat-square).
+- **[All of SAT Grammar in 37 Minutes (2026)](https://youtu.be/iJVJnvZO3PM)** - Every Digital SAT grammar rule in one sitting ![free](https://img.shields.io/badge/free-2489CA?style=flat-square).
+- **[All of SAT Passage Questions in 21 Minutes](https://youtu.be/0-cDbAjF5o8)** - Every SAT reading passage question type, covered fast ![free](https://img.shields.io/badge/free-2489CA?style=flat-square).
+- **[Digital SAT: Cross-Text Connections (FULL GUIDE)](https://youtu.be/yfn_VRLG5rg)** - Full strategy walkthrough for cross-text connection questions ![free](https://img.shields.io/badge/free-2489CA?style=flat-square).
+- **[English SAT Hacks | Structure & Purpose](https://youtu.be/fAHc6HnySgE)** - Hacks for structure-and-purpose questions ![free](https://img.shields.io/badge/free-2489CA?style=flat-square).
+- **[The "Ingredients" Trick for SAT Graph Questions](https://youtu.be/bAlMc1XiCpA)** - A trick for reading and answering SAT graph questions ![free](https://img.shields.io/badge/free-2489CA?style=flat-square).
+- **["Though" and "However" on the SAT? You're Missing This](https://youtu.be/s27u0NH2cWM)** - Strategy for transition-word questions built around "though" and "however" ![free](https://img.shields.io/badge/free-2489CA?style=flat-square).
 
 </details>
 
----
-
-## Courses & Prep Platforms
-
-Structured, self-paced programs that combine lessons, practice, and progress tracking.
+### Math
 
 <details open>
-<summary>Courses &amp; Prep Platforms</summary>
+<summary>Math</summary>
 
-- **[1600.io](https://1600.io)** - Deep video courses and problem sets for serious SAT scores ![paid](https://img.shields.io/badge/paid-D33833?style=flat-square).
-- **[Acely](https://acely.com/)** - Follow a personalized SAT and ACT study plan ![freemium](https://img.shields.io/badge/freemium-F5A623?style=flat-square).
-- **[Magoosh SAT](https://sat.magoosh.com)** - Video lessons and practice questions for the Digital SAT ![freemium](https://img.shields.io/badge/freemium-F5A623?style=flat-square).
+- **[8 Advanced Desmos Hacks You NEED for the SAT](https://youtu.be/eIkiuHw9nrI)** - Desmos calculator tricks for the Digital SAT math section ![free](https://img.shields.io/badge/free-2489CA?style=flat-square).
+- **[EVERY SAT DESMOS HACK in Under 6 Minutes (2026)](https://youtu.be/ZcsaatYhHTM)** - Every Desmos calculator hack for the Digital SAT, fast ![free](https://img.shields.io/badge/free-2489CA?style=flat-square).
 
 </details>
 
----
-
-## Study Guides & Strategy
-
-Written guides on the exam format, scoring, and the built-in calculator, plus strategy for raising your score section by section.
+### General
 
 <details open>
-<summary>Study Guides &amp; Strategy</summary>
+<summary>General</summary>
 
-- **[College Board SAT Scores](https://satsuite.collegeboard.org/scores)** - Learn how SAT scores are reported and what they mean ![free](https://img.shields.io/badge/free-2489CA?style=flat-square).
-- **[Desmos Testing](https://www.desmos.com/testing)** - Practice with the calculators built into the Digital SAT ![free](https://img.shields.io/badge/free-2489CA?style=flat-square).
-- **[Kaplan Digital SAT Guide](https://www.kaptest.com/study/sat/digital-sat/)** - Learn the Digital SAT format, sections, and strategies ![free](https://img.shields.io/badge/free-2489CA?style=flat-square).
-- **[PrepScholar](https://www.prepscholar.com/sat-test-prep/)** - Free study guides, score strategies, and section-by-section practice for the SAT ![free](https://img.shields.io/badge/free-2489CA?style=flat-square).
+- **[EVERYTHING You Need to Know about the SAT (2026)](https://youtu.be/9IC3WMCAAwc)** - A full intro to the Digital SAT: format, sections, and scoring ![free](https://img.shields.io/badge/free-2489CA?style=flat-square).
 
 </details>
 
@@ -156,8 +146,26 @@ Places to ask questions, compare scores, and swap strategies with other test-tak
 <summary>Communities</summary>
 
 - **[College Confidential SAT Preparation](https://talk.collegeconfidential.com/c/sat-and-act-tests-test-preparation/sat-preparation/64)** - Ask SAT prep questions and read advice threads on a college-admissions forum ![free](https://img.shields.io/badge/free-2489CA?style=flat-square).
+- **[Quora SAT](https://www.quora.com/topic/SAT-Exam)** - Read and ask questions in Quora's SAT topic ![free](https://img.shields.io/badge/free-2489CA?style=flat-square).
+- **[r/ApplyingToCollege](https://www.reddit.com/r/ApplyingToCollege/)** - Discuss SAT scores and strategy inside the broader college-admissions community ![free](https://img.shields.io/badge/free-2489CA?style=flat-square).
 - **[r/digitalSATs](https://www.reddit.com/r/digitalSATs/)** - Swap strategies and practice resources for the digital SAT ![free](https://img.shields.io/badge/free-2489CA?style=flat-square).
 - **[r/SAT](https://www.reddit.com/r/SAT/)** - Strategy, practice, and score discussion for the SAT ![free](https://img.shields.io/badge/free-2489CA?style=flat-square).
+
+</details>
+
+---
+
+## Vocab Bank
+
+Word lists, flashcards, and vocab builders for the reading and writing sections.
+
+<details open>
+<summary>Vocab Bank</summary>
+
+- **[Magoosh SAT Vocabulary Flashcards](https://magoosh.com/hs/sat/sat-vocabulary-flashcards/)** - Study a free deck of high-frequency SAT vocab flashcards ![free](https://img.shields.io/badge/free-2489CA?style=flat-square).
+- **[Membean](https://www.membean.com/)** - Build vocabulary long-term with adaptive, spaced-repetition word training ![freemium](https://img.shields.io/badge/freemium-F5A623?style=flat-square).
+- **[Quizlet SAT Vocabulary](https://quizlet.com/subject/sat-vocabulary/)** - Drill SAT vocab with community-made flashcard sets ![freemium](https://img.shields.io/badge/freemium-F5A623?style=flat-square).
+- **[Vocabulary.com SAT Word Lists](https://www.vocabulary.com/lists/)** - Learn SAT-level words with adaptive games and lists ![free](https://img.shields.io/badge/free-2489CA?style=flat-square).
 
 </details>
 
