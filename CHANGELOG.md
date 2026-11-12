@@ -34,6 +34,12 @@ software), but releases are still tagged so changes are easy to point to.
 - The generic College Board, Khan Academy, MagooshSAT, Scalar Learning,
   SupertutorTV, and UWorld College Prep channel listings, replaced by
   hand-picked videos.
+- The **Official Resources** section (College Board SAT Suite) and every
+  freemium or paid entry (Mometrix SAT, Test Innovators, The Princeton Review
+  SAT, Varsity Tutors SAT, Albert SAT, Test Ninjas, Union Test Prep SAT,
+  UWorld SAT, Membean, Quizlet SAT Vocabulary), narrowing the list to free
+  resources only. The surviving mock-test and practice-question entries are
+  merged into one **Practice Tests** section.
 
 ## [1.0.0] - 2026-11-11
 

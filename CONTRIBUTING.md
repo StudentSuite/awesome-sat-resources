@@ -64,13 +64,10 @@ Order: FOSS first, then the pricing badge, e.g. `![FOSS](...) ![free](...)`. `sc
 
 Add your single bullet to the closest matching section:
 
-- Official Resources
-- Mock Tests & Full-Length Practice
-- Practice Questions & Quizzes
+- Practice Tests
 - Video Lessons & YouTube
-- Courses & Prep Platforms
-- Study Guides & Strategy
 - Communities
+- Vocab Bank
 
 If nothing fits, open an issue first to discuss a new section before adding one. Resources for other exams (ACT, PSAT, AP, IB, and so on) and for school subjects now live in [Awesome Study Resources](https://github.com/StudentSuite/awesome-study-resources) instead, and discounts, money, career prep, and wellbeing live in [Awesome Student Resources](https://github.com/StudentSuite/awesome-student-resources).
 
