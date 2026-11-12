@@ -190,7 +190,6 @@ Recognized contributions, including non-code ones (bug reports, docs, ideas), vi
 <table>
   <tbody>
     <tr>
-      <td align="center" valign="top" width="14.28%"><a href="https://github.com/yakew7"><img src="https://avatars.githubusercontent.com/u/86704881?v=4&size=100" width="100px" height="100px" alt="Yash Kewlani"/><br /><sub><b>Yash Kewlani</b></sub></a><br /><a href="#content-yakew7" title="Content">🖋</a> <a href="https://github.com/StudentSuite/awesome-sat-resources/commits?author=yakew7" title="Documentation">📖</a> <a href="#maintenance-yakew7" title="Maintenance">🚧</a> <a href="https://github.com/StudentSuite/awesome-sat-resources/pulls?q=is%3Apr+reviewed-by%3Ayakew7" title="Reviewed Pull Requests">👀</a> <a href="#infra-yakew7" title="Infrastructure (Hosting, Build-Tools, etc)">🚇</a></td>
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/AnayDhawan"><img src="https://avatars.githubusercontent.com/u/213218064?v=4&size=100" width="100px" height="100px" alt="Anay Dhawan"/><br /><sub><b>Anay Dhawan</b></sub></a><br /><a href="#content-AnayDhawan" title="Content">🖋</a> <a href="https://github.com/StudentSuite/awesome-sat-resources/commits?author=AnayDhawan" title="Documentation">📖</a> <a href="#maintenance-AnayDhawan" title="Maintenance">🚧</a> <a href="https://github.com/StudentSuite/awesome-sat-resources/pulls?q=is%3Apr+reviewed-by%3AAnayDhawan" title="Reviewed Pull Requests">👀</a> <a href="#infra-AnayDhawan" title="Infrastructure (Hosting, Build-Tools, etc)">🚇</a></td>
     </tr>
   </tbody>
