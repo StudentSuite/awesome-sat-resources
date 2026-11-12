@@ -15,6 +15,7 @@ narrative supplement for what each early contributor specifically added.
 ## Maintainers
 
 - [@AnayDhawan](https://github.com/AnayDhawan) - creator and maintainer
+- [@yakew7](https://github.com/yakew7) - creator and maintainer
 
 ## Contributors
 

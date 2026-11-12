@@ -13,6 +13,19 @@
   "skipCi": true,
   "contributors": [
     {
+      "login": "yakew7",
+      "name": "Yash Kewlani",
+      "avatar_url": "https://avatars.githubusercontent.com/u/86704881?v=4",
+      "profile": "https://github.com/yakew7",
+      "contributions": [
+        "content",
+        "doc",
+        "maintenance",
+        "review",
+        "infra"
+      ]
+    },
+    {
       "login": "AnayDhawan",
       "name": "Anay Dhawan",
       "avatar_url": "https://avatars.githubusercontent.com/u/213218064?v=4",
