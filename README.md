@@ -11,7 +11,7 @@ A curated list of free practice tests, video lessons, vocab, and communities for
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md)
-![Resources](https://img.shields.io/badge/resources-26-blue)
+![Resources](https://img.shields.io/badge/resources-25-blue)
 ![Sections](https://img.shields.io/badge/sections-5-purple)
 [![Changelog](https://img.shields.io/badge/changelog-v1.0.0-lightgrey.svg)](CHANGELOG.md)
 
@@ -37,7 +37,7 @@ This list goes deep on one exam. [Awesome Study Resources](https://github.com/St
 | <span role="img" aria-label="Formula Sheets icon">📐</span> | [Formula Sheets](#formula-sheets) | 1 |
 | <span role="img" aria-label="Video Lessons &amp; YouTube icon">🎬</span> | [Video Lessons & YouTube](#video-lessons--youtube) | 10 |
 | <span role="img" aria-label="Communities icon">👥</span> | [Communities](#communities) | 5 |
-| <span role="img" aria-label="Vocab Bank icon">🔤</span> | [Vocab Bank](#vocab-bank) | 3 |
+| <span role="img" aria-label="Vocab Bank icon">🔤</span> | [Vocab Bank](#vocab-bank) | 2 |
 
 [More from StudentSuite](#more-from-studentsuite) &middot; [Sister lists](#sister-lists) &middot; [A Note on Links](#a-note-on-links) &middot; [Quality Standards](#quality-standards) &middot; [Contributing](#contributing) &middot; [Contributors](#contributors) &middot; [License](#license)
 
